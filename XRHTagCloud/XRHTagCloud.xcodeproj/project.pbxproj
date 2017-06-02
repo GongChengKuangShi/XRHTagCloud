@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F99D7E71EE16D6E0040B9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D7E61EE16D6E0040B9DA /* main.m */; };
+		8F99D7EA1EE16D6E0040B9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D7E91EE16D6E0040B9DA /* AppDelegate.m */; };
+		8F99D7ED1EE16D6E0040B9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D7EC1EE16D6E0040B9DA /* ViewController.m */; };
+		8F99D7F01EE16D6E0040B9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F99D7EE1EE16D6E0040B9DA /* Main.storyboard */; };
+		8F99D7F21EE16D6E0040B9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F99D7F11EE16D6E0040B9DA /* Assets.xcassets */; };
+		8F99D7F51EE16D6E0040B9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F99D7F31EE16D6E0040B9DA /* LaunchScreen.storyboard */; };
+		8F99D8001EE16D6E0040B9DA /* XRHTagCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D7FF1EE16D6E0040B9DA /* XRHTagCloudTests.m */; };
+		8F99D80B1EE16D6E0040B9DA /* XRHTagCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D80A1EE16D6E0040B9DA /* XRHTagCloudUITests.m */; };
+		8F99D81F1EE16D820040B9DA /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F99D8191EE16D820040B9DA /* demo.gif */; };
+		8F99D8201EE16D820040B9DA /* RFTagCloudPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D81C1EE16D820040B9DA /* RFTagCloudPageView.m */; };
+		8F99D8211EE16D820040B9DA /* RFTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99D81E1EE16D820040B9DA /* RFTagCloudView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F99D7FC1EE16D6E0040B9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F99D7DA1EE16D6E0040B9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F99D7E11EE16D6E0040B9DA;
+			remoteInfo = XRHTagCloud;
+		};
+		8F99D8071EE16D6E0040B9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F99D7DA1EE16D6E0040B9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F99D7E11EE16D6E0040B9DA;
+			remoteInfo = XRHTagCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F99D7E21EE16D6E0040B9DA /* XRHTagCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRHTagCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99D7E61EE16D6E0040B9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F99D7E81EE16D6E0040B9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F99D7E91EE16D6E0040B9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F99D7EB1EE16D6E0040B9DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F99D7EC1EE16D6E0040B9DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F99D7EF1EE16D6E0040B9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F99D7F11EE16D6E0040B9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F99D7F41EE16D6E0040B9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F99D7F61EE16D6E0040B9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F99D7FB1EE16D6E0040B9DA /* XRHTagCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRHTagCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99D7FF1EE16D6E0040B9DA /* XRHTagCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRHTagCloudTests.m; sourceTree = "<group>"; };
+		8F99D8011EE16D6E0040B9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F99D8061EE16D6E0040B9DA /* XRHTagCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRHTagCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99D80A1EE16D6E0040B9DA /* XRHTagCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRHTagCloudUITests.m; sourceTree = "<group>"; };
+		8F99D80C1EE16D6E0040B9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F99D8191EE16D820040B9DA /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		8F99D81B1EE16D820040B9DA /* RFTagCloudPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudPageView.h; sourceTree = "<group>"; };
+		8F99D81C1EE16D820040B9DA /* RFTagCloudPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudPageView.m; sourceTree = "<group>"; };
+		8F99D81D1EE16D820040B9DA /* RFTagCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudView.h; sourceTree = "<group>"; };
+		8F99D81E1EE16D820040B9DA /* RFTagCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F99D7DF1EE16D6E0040B9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D7F81EE16D6E0040B9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D8031EE16D6E0040B9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F99D7D91EE16D6E0040B9DA = {
+			isa = PBXGroup;
+			children = (
+				8F99D7E41EE16D6E0040B9DA /* XRHTagCloud */,
+				8F99D7FE1EE16D6E0040B9DA /* XRHTagCloudTests */,
+				8F99D8091EE16D6E0040B9DA /* XRHTagCloudUITests */,
+				8F99D7E31EE16D6E0040B9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F99D7E31EE16D6E0040B9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D7E21EE16D6E0040B9DA /* XRHTagCloud.app */,
+				8F99D7FB1EE16D6E0040B9DA /* XRHTagCloudTests.xctest */,
+				8F99D8061EE16D6E0040B9DA /* XRHTagCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F99D7E41EE16D6E0040B9DA /* XRHTagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D8181EE16D820040B9DA /* Demo */,
+				8F99D81A1EE16D820040B9DA /* Classes */,
+				8F99D7E81EE16D6E0040B9DA /* AppDelegate.h */,
+				8F99D7E91EE16D6E0040B9DA /* AppDelegate.m */,
+				8F99D7EB1EE16D6E0040B9DA /* ViewController.h */,
+				8F99D7EC1EE16D6E0040B9DA /* ViewController.m */,
+				8F99D7EE1EE16D6E0040B9DA /* Main.storyboard */,
+				8F99D7F11EE16D6E0040B9DA /* Assets.xcassets */,
+				8F99D7F31EE16D6E0040B9DA /* LaunchScreen.storyboard */,
+				8F99D7F61EE16D6E0040B9DA /* Info.plist */,
+				8F99D7E51EE16D6E0040B9DA /* Supporting Files */,
+			);
+			path = XRHTagCloud;
+			sourceTree = "<group>";
+		};
+		8F99D7E51EE16D6E0040B9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D7E61EE16D6E0040B9DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F99D7FE1EE16D6E0040B9DA /* XRHTagCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D7FF1EE16D6E0040B9DA /* XRHTagCloudTests.m */,
+				8F99D8011EE16D6E0040B9DA /* Info.plist */,
+			);
+			path = XRHTagCloudTests;
+			sourceTree = "<group>";
+		};
+		8F99D8091EE16D6E0040B9DA /* XRHTagCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D80A1EE16D6E0040B9DA /* XRHTagCloudUITests.m */,
+				8F99D80C1EE16D6E0040B9DA /* Info.plist */,
+			);
+			path = XRHTagCloudUITests;
+			sourceTree = "<group>";
+		};
+		8F99D8181EE16D820040B9DA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D8191EE16D820040B9DA /* demo.gif */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8F99D81A1EE16D820040B9DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F99D81B1EE16D820040B9DA /* RFTagCloudPageView.h */,
+				8F99D81C1EE16D820040B9DA /* RFTagCloudPageView.m */,
+				8F99D81D1EE16D820040B9DA /* RFTagCloudView.h */,
+				8F99D81E1EE16D820040B9DA /* RFTagCloudView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F99D7E11EE16D6E0040B9DA /* XRHTagCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F99D80F1EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloud" */;
+			buildPhases = (
+				8F99D7DE1EE16D6E0040B9DA /* Sources */,
+				8F99D7DF1EE16D6E0040B9DA /* Frameworks */,
+				8F99D7E01EE16D6E0040B9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRHTagCloud;
+			productName = XRHTagCloud;
+			productReference = 8F99D7E21EE16D6E0040B9DA /* XRHTagCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F99D7FA1EE16D6E0040B9DA /* XRHTagCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F99D8121EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloudTests" */;
+			buildPhases = (
+				8F99D7F71EE16D6E0040B9DA /* Sources */,
+				8F99D7F81EE16D6E0040B9DA /* Frameworks */,
+				8F99D7F91EE16D6E0040B9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F99D7FD1EE16D6E0040B9DA /* PBXTargetDependency */,
+			);
+			name = XRHTagCloudTests;
+			productName = XRHTagCloudTests;
+			productReference = 8F99D7FB1EE16D6E0040B9DA /* XRHTagCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F99D8051EE16D6E0040B9DA /* XRHTagCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F99D8151EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloudUITests" */;
+			buildPhases = (
+				8F99D8021EE16D6E0040B9DA /* Sources */,
+				8F99D8031EE16D6E0040B9DA /* Frameworks */,
+				8F99D8041EE16D6E0040B9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F99D8081EE16D6E0040B9DA /* PBXTargetDependency */,
+			);
+			name = XRHTagCloudUITests;
+			productName = XRHTagCloudUITests;
+			productReference = 8F99D8061EE16D6E0040B9DA /* XRHTagCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F99D7DA1EE16D6E0040B9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiangronghua;
+				TargetAttributes = {
+					8F99D7E11EE16D6E0040B9DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					8F99D7FA1EE16D6E0040B9DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F99D7E11EE16D6E0040B9DA;
+					};
+					8F99D8051EE16D6E0040B9DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F99D7E11EE16D6E0040B9DA;
+					};
+				};
+			};
+			buildConfigurationList = 8F99D7DD1EE16D6E0040B9DA /* Build configuration list for PBXProject "XRHTagCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F99D7D91EE16D6E0040B9DA;
+			productRefGroup = 8F99D7E31EE16D6E0040B9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F99D7E11EE16D6E0040B9DA /* XRHTagCloud */,
+				8F99D7FA1EE16D6E0040B9DA /* XRHTagCloudTests */,
+				8F99D8051EE16D6E0040B9DA /* XRHTagCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F99D7E01EE16D6E0040B9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99D7F51EE16D6E0040B9DA /* LaunchScreen.storyboard in Resources */,
+				8F99D81F1EE16D820040B9DA /* demo.gif in Resources */,
+				8F99D7F21EE16D6E0040B9DA /* Assets.xcassets in Resources */,
+				8F99D7F01EE16D6E0040B9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D7F91EE16D6E0040B9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D8041EE16D6E0040B9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F99D7DE1EE16D6E0040B9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99D7ED1EE16D6E0040B9DA /* ViewController.m in Sources */,
+				8F99D7EA1EE16D6E0040B9DA /* AppDelegate.m in Sources */,
+				8F99D8201EE16D820040B9DA /* RFTagCloudPageView.m in Sources */,
+				8F99D7E71EE16D6E0040B9DA /* main.m in Sources */,
+				8F99D8211EE16D820040B9DA /* RFTagCloudView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D7F71EE16D6E0040B9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99D8001EE16D6E0040B9DA /* XRHTagCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99D8021EE16D6E0040B9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99D80B1EE16D6E0040B9DA /* XRHTagCloudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F99D7FD1EE16D6E0040B9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F99D7E11EE16D6E0040B9DA /* XRHTagCloud */;
+			targetProxy = 8F99D7FC1EE16D6E0040B9DA /* PBXContainerItemProxy */;
+		};
+		8F99D8081EE16D6E0040B9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F99D7E11EE16D6E0040B9DA /* XRHTagCloud */;
+			targetProxy = 8F99D8071EE16D6E0040B9DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F99D7EE1EE16D6E0040B9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F99D7EF1EE16D6E0040B9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F99D7F31EE16D6E0040B9DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F99D7F41EE16D6E0040B9DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F99D80D1EE16D6E0040B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F99D80E1EE16D6E0040B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F99D8101EE16D6E0040B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XRHTagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F99D8111EE16D6E0040B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XRHTagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F99D8131EE16D6E0040B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XRHTagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRHTagCloud.app/XRHTagCloud";
+			};
+			name = Debug;
+		};
+		8F99D8141EE16D6E0040B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XRHTagCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRHTagCloud.app/XRHTagCloud";
+			};
+			name = Release;
+		};
+		8F99D8161EE16D6E0040B9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XRHTagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XRHTagCloud;
+			};
+			name = Debug;
+		};
+		8F99D8171EE16D6E0040B9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XRHTagCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.XRHTagCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XRHTagCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F99D7DD1EE16D6E0040B9DA /* Build configuration list for PBXProject "XRHTagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99D80D1EE16D6E0040B9DA /* Debug */,
+				8F99D80E1EE16D6E0040B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F99D80F1EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99D8101EE16D6E0040B9DA /* Debug */,
+				8F99D8111EE16D6E0040B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F99D8121EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99D8131EE16D6E0040B9DA /* Debug */,
+				8F99D8141EE16D6E0040B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F99D8151EE16D6E0040B9DA /* Build configuration list for PBXNativeTarget "XRHTagCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99D8161EE16D6E0040B9DA /* Debug */,
+				8F99D8171EE16D6E0040B9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F99D7DA1EE16D6E0040B9DA /* Project object */;
+}
