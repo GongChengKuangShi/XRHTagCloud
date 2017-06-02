@@ -10,4 +10,4 @@ pod 'RFTagCloud'
 ##Demo
 ![](https://github.com/refinemobi/RFTagCloud/raw/master/Demo/demo.gif)  
 ##Contact
-Email:sensejump@foxmail.com
+
